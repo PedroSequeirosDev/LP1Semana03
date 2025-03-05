@@ -11,12 +11,19 @@ namespace ChangeString
             Console.WriteLine("Caráter: ");
             string g = Console.ReadLine();
 
+            char c =char.Parse(g);
     
-            string new_string = a.Replace(g,"x");
+            for (int i=0; i < a.Length; i++) 
 
-            Console.Write(new_string);
-                
-               
+            if(a[i]==c)
+            {
+            Console.Write("x");
+            }    
+
+            else
+            {
+                Console.Write(a[i]);
+            }              
 
             
 
