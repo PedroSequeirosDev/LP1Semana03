@@ -33,7 +33,7 @@ namespace ArrayMul
             }
             foreach (float result in final)
             {
-                Console.WriteLine($"| {result:f2} |");
+                Console.WriteLine($"| {result,7:f2} |");
             }
 
 
